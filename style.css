@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    323deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 28%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 100vh;
+  font-size: 20px;
+}
+
+body {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.notification {
+  text-align: center;
+  margin: 0 1rem;
+}
+.notification h1 {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: white;
+}
